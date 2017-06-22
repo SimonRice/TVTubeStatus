@@ -7,19 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F45FC2081EFB86F60054D21C /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = F45FC2071EFB86F60054D21C /* Config.plist */; };
+		F48EA9DA1EF720E200768450 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48EA9D91EF720E200768450 /* DetailViewController.swift */; };
 		F4E333E51EF715B300F0C019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E333E41EF715B300F0C019 /* AppDelegate.swift */; };
-		F4E333E71EF715B300F0C019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E333E61EF715B300F0C019 /* ViewController.swift */; };
+		F4E333E71EF715B300F0C019 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E333E61EF715B300F0C019 /* SummaryViewController.swift */; };
 		F4E333EA1EF715B300F0C019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E333E81EF715B300F0C019 /* Main.storyboard */; };
 		F4E333EC1EF715B300F0C019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E333EB1EF715B300F0C019 /* Assets.xcassets */; };
+		F4E333F41EF715DB00F0C019 /* UIColor+TfL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E333F31EF715DB00F0C019 /* UIColor+TfL.swift */; };
+		F4E334191EF7179C00F0C019 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E333FA1EF7176F00F0C019 /* Alamofire.framework */; };
+		F4E3341A1EF7179C00F0C019 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4E333FA1EF7176F00F0C019 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4E3341B1EF7179C00F0C019 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E334001EF7176F00F0C019 /* RxCocoa.framework */; };
+		F4E3341C1EF7179C00F0C019 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4E334001EF7176F00F0C019 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4E3341D1EF7179C00F0C019 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E334021EF7176F00F0C019 /* RxSwift.framework */; };
+		F4E3341E1EF7179C00F0C019 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4E334021EF7176F00F0C019 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4E3341F1EF7179C00F0C019 /* RxTfL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E334061EF7176F00F0C019 /* RxTfL.framework */; };
+		F4E334201EF7179C00F0C019 /* RxTfL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4E334061EF7176F00F0C019 /* RxTfL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4E334231EF7189900F0C019 /* Line+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E334221EF7189900F0C019 /* Line+Extensions.swift */; };
+		F4E334251EF719F500F0C019 /* UIColor+TextColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E334241EF719F500F0C019 /* UIColor+TextColour.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F4E334211EF7179C00F0C019 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F4E3341C1EF7179C00F0C019 /* RxCocoa.framework in Embed Frameworks */,
+				F4E3341A1EF7179C00F0C019 /* Alamofire.framework in Embed Frameworks */,
+				F4E3341E1EF7179C00F0C019 /* RxSwift.framework in Embed Frameworks */,
+				F4E334201EF7179C00F0C019 /* RxTfL.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F45FC2071EFB86F60054D21C /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		F48EA9D91EF720E200768450 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F4E333E11EF715B300F0C019 /* TVTubeStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVTubeStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E333E41EF715B300F0C019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4E333E61EF715B300F0C019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4E333E61EF715B300F0C019 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		F4E333E91EF715B300F0C019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4E333EB1EF715B300F0C019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E333ED1EF715B300F0C019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E333F31EF715DB00F0C019 /* UIColor+TfL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+TfL.swift"; sourceTree = "<group>"; };
+		F4E333FA1EF7176F00F0C019 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		F4E334001EF7176F00F0C019 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		F4E334021EF7176F00F0C019 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		F4E334061EF7176F00F0C019 /* RxTfL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTfL.framework; sourceTree = "<group>"; };
+		F4E334221EF7189900F0C019 /* Line+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Line+Extensions.swift"; sourceTree = "<group>"; };
+		F4E334241EF719F500F0C019 /* UIColor+TextColour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+TextColour.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E3341B1EF7179C00F0C019 /* RxCocoa.framework in Frameworks */,
+				F4E334191EF7179C00F0C019 /* Alamofire.framework in Frameworks */,
+				F4E3341D1EF7179C00F0C019 /* RxSwift.framework in Frameworks */,
+				F4E3341F1EF7179C00F0C019 /* RxTfL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +79,7 @@
 		F4E333D81EF715B300F0C019 = {
 			isa = PBXGroup;
 			children = (
+				F4E333F61EF7176F00F0C019 /* Frameworks */,
 				F4E333E31EF715B300F0C019 /* TVTubeStatus */,
 				F4E333E21EF715B300F0C019 /* Products */,
 			);
@@ -53,12 +97,29 @@
 			isa = PBXGroup;
 			children = (
 				F4E333E41EF715B300F0C019 /* AppDelegate.swift */,
-				F4E333E61EF715B300F0C019 /* ViewController.swift */,
+				F4E333E61EF715B300F0C019 /* SummaryViewController.swift */,
+				F45FC2071EFB86F60054D21C /* Config.plist */,
+				F4E333F31EF715DB00F0C019 /* UIColor+TfL.swift */,
 				F4E333E81EF715B300F0C019 /* Main.storyboard */,
 				F4E333EB1EF715B300F0C019 /* Assets.xcassets */,
 				F4E333ED1EF715B300F0C019 /* Info.plist */,
+				F4E334221EF7189900F0C019 /* Line+Extensions.swift */,
+				F4E334241EF719F500F0C019 /* UIColor+TextColour.swift */,
+				F48EA9D91EF720E200768450 /* DetailViewController.swift */,
 			);
 			path = TVTubeStatus;
+			sourceTree = "<group>";
+		};
+		F4E333F61EF7176F00F0C019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4E333FA1EF7176F00F0C019 /* Alamofire.framework */,
+				F4E334001EF7176F00F0C019 /* RxCocoa.framework */,
+				F4E334021EF7176F00F0C019 /* RxSwift.framework */,
+				F4E334061EF7176F00F0C019 /* RxTfL.framework */,
+			);
+			name = Frameworks;
+			path = Carthage/Build/tvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +132,7 @@
 				F4E333DD1EF715B300F0C019 /* Sources */,
 				F4E333DE1EF715B300F0C019 /* Frameworks */,
 				F4E333DF1EF715B300F0C019 /* Resources */,
+				F4E334211EF7179C00F0C019 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E333EC1EF715B300F0C019 /* Assets.xcassets in Resources */,
+				F45FC2081EFB86F60054D21C /* Config.plist in Resources */,
 				F4E333EA1EF715B300F0C019 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,8 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4E333E71EF715B300F0C019 /* ViewController.swift in Sources */,
+				F4E333E71EF715B300F0C019 /* SummaryViewController.swift in Sources */,
 				F4E333E51EF715B300F0C019 /* AppDelegate.swift in Sources */,
+				F4E333F41EF715DB00F0C019 /* UIColor+TfL.swift in Sources */,
+				F48EA9DA1EF720E200768450 /* DetailViewController.swift in Sources */,
+				F4E334251EF719F500F0C019 /* UIColor+TextColour.swift in Sources */,
+				F4E334231EF7189900F0C019 /* Line+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +318,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = DDY5VAFADG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = TVTubeStatus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonrice.TVTubeStatus;
@@ -265,6 +336,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = DDY5VAFADG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = TVTubeStatus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonrice.TVTubeStatus;
@@ -292,6 +367,7 @@
 				F4E333F21EF715B300F0C019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
