@@ -1,6 +1,6 @@
 # TV Tube Status
 
-[![Twitter: @_simonrice](https://img.shields.io/badge/contact-@_simonrice-blue.svg?style=flat)](https://twitter.com/_simonrice)
+[![Twitter: @_simonrice](https://img.shields.io/badge/contact-@__simonrice-blue.svg?style=flat)](https://twitter.com/_simonrice)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/simonrice/TVTubeStatus/blob/master/LICENSE)
 
 This is a tvOS app that shows the status of all London Underground, Overground, Croydon Tramlink, TfL Rail & Docklands Light Railway routes in London.  It also happens to be my first attempt of building a tvOS app from the ground up.
